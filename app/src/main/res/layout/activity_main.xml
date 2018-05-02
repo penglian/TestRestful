@@ -10,36 +10,48 @@
         android:id="@+id/btn_get"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="get方式"
-        />
+        android:text="get方式" />
 
     <Button
         android:id="@+id/btn_get_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="get方式List"
-        />
+        android:text="get方式List" />
+
     <Button
         android:id="@+id/btn_post"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="post方式" />
+
     <Button
         android:id="@+id/btn_put"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="put方式"
-        />
+        android:text="put方式" />
+
     <Button
         android:id="@+id/btn_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="delete方式"
-        />
-    <TextView
-        android:layout_width="match_parent"
+        android:text="delete方式" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="图片上传" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文件下载" />
+
+    <TextView
         android:id="@+id/tv_result"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>

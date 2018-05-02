@@ -19,6 +19,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 
@@ -35,4 +36,6 @@ ext {
     rxandroidVersion = '2.0.1'
     rxbindingVersion = '2.0.0'
     rxjavaAdapter = '1.0.0'
+    multySelectImage = '1.2'
+    rxlifecycle = '1.0'
 }

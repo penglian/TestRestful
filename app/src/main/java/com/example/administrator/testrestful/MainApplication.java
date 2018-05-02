@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
+import com.example.administrator.testrestful.pl.RytApp;
+
 /**
  * Created by pl on 2018/4/23 0023.
  */
@@ -25,6 +27,9 @@ public class MainApplication extends Application{
         mHandler = new Handler();
         mainThreadId = android.os.Process.myTid();
         // 初始化 Bmob SDK
+
+
+        RytApp.init(this);
     }
 
     /**

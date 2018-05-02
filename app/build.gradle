@@ -36,4 +36,6 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxjavaVersion"
     implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding:$rootProject.rxbindingVersion"
+
+    implementation "com.github.lovetuzitong:MultiImageSelector:$rootProject.multySelectImage"
 }
